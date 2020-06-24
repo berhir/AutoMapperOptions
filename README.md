@@ -29,11 +29,8 @@ services.AddAutoMapper(options =>
 
 Behind the scenes it adds the configuration to the service collection using the extension method from the `Microsoft.Extensions.Options` package:
 ```cs
-public static IServiceCollection AddAutoMapper(this IServiceCollection services, Action<MapperConfigurationExpression> configureOptions)
-{
-    services.Configure(configureOptions);
-    return services.AddAutoMapper();
-}
+services.AddOptions<MapperConfigurationExpression>()
+    .Configure(configAction);
 ```
 
 Later on we can get the combined configration and create the `MapperConfiguration`:
@@ -47,3 +44,4 @@ return new MapperConfiguration(options.Value);
 - *AutoMapperOptions.Extensions.Microsoft.DependencyInjection:* Extension methods to register and configure AutoMapper
 - *AutoMapperOptions.Module1:* Sample module that registers a service and an AutoMapper profile
 - *AutoMapperOptions.Module2:* Sample module that contains the code from the AutoMapper [TestApp](https://github.com/AutoMapper/AutoMapper.Extensions.Microsoft.DependencyInjection/tree/master/src/TestApp) to demonstrate the differences
+- *AutoMapperOptions.Module3:* Same as Module2, but this module gets registered via assembly scanning
