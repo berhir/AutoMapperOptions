@@ -7,10 +7,10 @@ namespace AutoMapperOptions.Module2
     {
         public static void AddModule2(this IServiceCollection services)
         {
-            services.AddAutoMapper(cfg =>
+            services.AddAutoMapper(options =>
             {
-                cfg.AddProfile<Profile1>();
-                cfg.AddProfile<Profile2>();
+                options.AddProfile<Profile1>();
+                options.AddProfile<Profile2>();
             });
 
             services.AddTransient<ISomeService>(sp => new FooService(5));

@@ -20,10 +20,10 @@ The sample code uses custom extension methods to register and configure AutoMapp
 
 You can call AddAutoMapper multiple times from different places/libraries and add the configuration you need:
 ```cs
-services.AddAutoMapper(cfg =>
+services.AddAutoMapper(options =>
 {
-    cfg.AddProfile<Profile1>();
-    cfg.AddProfile<Profile2>();
+    options.AddProfile<Profile1>();
+    options.AddProfile<Profile2>();
 });
 ```
 
