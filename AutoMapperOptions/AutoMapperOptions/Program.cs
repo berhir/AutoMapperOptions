@@ -11,8 +11,8 @@ namespace AutoMapperOptions
         public static void Main(string[] args)
         {
             IServiceCollection services = new ServiceCollection();
-                    services.AddModule1();
-                    services.AddModule2();
+            services.AddModule1();
+            services.AddModule2();
 
             var provider = services.BuildServiceProvider();
 
