@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperOptions", "AutoMapperOptions\AutoMapperOptions.csproj", "{A11C8D51-EE45-48C3-A06B-2CD382B1B64C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperOptions.Module1", "AutoMapperOptions.Module1\AutoMapperOptions.Module1.csproj", "{9D3A1A6D-0395-4F5A-9529-1E8505EFE472}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperOptions.Extensions.Microsoft.DependencyInjection", "AutoMapperOptions.Extensions.Microsoft.DependencyInjection\AutoMapperOptions.Extensions.Microsoft.DependencyInjection.csproj", "{0EC5E4C8-ABA4-47CB-9302-8F2D1741F5BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{252B0E94-A265-4E47-BC42-262AF22181E5}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperOptions.Module2", "AutoMapperOptions.Module2\AutoMapperOptions.Module2.csproj", "{71567D68-B2D9-4D6C-85B7-6E7FEB4EF491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A11C8D51-EE45-48C3-A06B-2CD382B1B64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11C8D51-EE45-48C3-A06B-2CD382B1B64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11C8D51-EE45-48C3-A06B-2CD382B1B64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11C8D51-EE45-48C3-A06B-2CD382B1B64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3A1A6D-0395-4F5A-9529-1E8505EFE472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3A1A6D-0395-4F5A-9529-1E8505EFE472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3A1A6D-0395-4F5A-9529-1E8505EFE472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3A1A6D-0395-4F5A-9529-1E8505EFE472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC5E4C8-ABA4-47CB-9302-8F2D1741F5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC5E4C8-ABA4-47CB-9302-8F2D1741F5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC5E4C8-ABA4-47CB-9302-8F2D1741F5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC5E4C8-ABA4-47CB-9302-8F2D1741F5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71567D68-B2D9-4D6C-85B7-6E7FEB4EF491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71567D68-B2D9-4D6C-85B7-6E7FEB4EF491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71567D68-B2D9-4D6C-85B7-6E7FEB4EF491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71567D68-B2D9-4D6C-85B7-6E7FEB4EF491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5673612D-DBFD-4664-B895-8875541DD563}
+	EndGlobalSection
+EndGlobal
