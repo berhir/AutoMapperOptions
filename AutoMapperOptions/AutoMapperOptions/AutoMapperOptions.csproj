@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AutoMapperOptions.Module1\AutoMapperOptions.Module1.csproj" />
     <ProjectReference Include="..\AutoMapperOptions.Module2\AutoMapperOptions.Module2.csproj" />
+    <ProjectReference Include="..\AutoMapperOptions.Module3\AutoMapperOptions.Module3.csproj" />
   </ItemGroup>
 
 </Project>
